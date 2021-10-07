@@ -1,97 +1,765 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
 
-    <title>reveal.js</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>never-disclose</title>
+  <link rel="stylesheet" href="css/main.css">
+    <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico">
+  <!-- Theme used for syntax highlighted code -->
+  <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css" id="highlight-theme" />
+  <link rel="stylesheet" href="https://cdn.rawgit.com/octoshrimpy/bulma-o-steps/master/bulma-steps.css">
+  <link rel="stylesheet" href="reveal.js/dist/reset.css" />
+  <!-- <link rel="stylesheet" href="reveal.js/dist/theme/white.css" id="theme" /> -->
+</head>
 
-    <link rel="stylesheet" href="reveal.js/dist/reset.css" />
-    <link rel="stylesheet" href="reveal.js/dist/reveal.css" />
-    <link rel="stylesheet" href="reveal.js/dist/theme/serif.css" id="theme" />
+<body>
+  <div class="reveal" style="width: 100%; height: 100%;">
+    <div class="slides">
 
-    <!-- Theme used for syntax highlighted code -->
-    <link
-      rel="stylesheet"
-      href="reveal.js/plugin/highlight/monokai.css"
-      id="highlight-theme"
-    />
-  </head>
-  <body>
-    <div class="reveal">
-      <div class="slides">
-        <section
-          data-markdown
-          data-separator="-----"
-          data-separator-vertical="---"
-        >
-          <textarea data-template>
-            # Title Page
+      <!-- Title -->
+      <section class="hero is-large is-primary">
+        <div class="hero-body">
+          <div class="container">
+            <div class="columns">
+              <div class="column is-12">
+                <h1 class="title is-1 is-spaced">
+                  never-disclose
+                </h1>
+                <h2 class="subtitle is-2">
+                  until broken cyber-law is fixen
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            ### Date
-
-            -----
-            
-            Vertical slides are separated by `- - -`
-            
-            ---
-            
-            Vertical slides are separated by `- - -` .
-            
-            ---
-            
-            Vertical slides are separated by `- - -` ..
-     
-            -----
-            
-            # title
-            ## skills
-            * one
-            * two
-            * three
-            
-            ## heading
-            8. three
-            1. one
-            1. two
-         
-            
-            -----
-            
-
-            # Questions
-
-            -----
-
-            ## made with
-
-            #### [reveal.js](https://github.com/hakimel/reveal.js)
-
-            #### [excalidraw](https://github.com/excalidraw/excalidraw)
-
-          </textarea>
+      <!-- About -->
+      <section>
+        <section>
+          <div class="block">
+            <style>
+              .reveal ul {
+                list-style: none;
+              }
+            </style>
+            <ul class="steps is-balanced">
+              <li class="steps-segment is-active">
+                <span class="steps-marker"></span>
+                <div class="steps-content">
+                  <p class="is-size-4">About</p>
+                  <p></p>
+                </div>
+              </li>
+              <li class="steps-segment">
+                <span class="steps-marker"></span>
+                <div class="steps-content">
+                  <p class="is-size-4">How it started</p>
+                </div>
+              </li>
+              <li class="steps-segment">
+                <span class="steps-marker"></span>
+                <div class="steps-content">
+                  <p class="is-size-4">Why this is bad</p>
+                  <p></p>
+                </div>
+              </li>
+              <li class="steps-segment">
+                <span class="steps-marker"></span>
+                <div class="steps-content">
+                  <p class="is-size-4">What needs fixing</p>
+                </div>
+              </li>
+            </ul>
+          </div>
         </section>
+
+        <section data-background-image="assets/openeobs-banner.png">
+          <div class="block">
+            <div class="box has-background-primary">
+              <p class="subtitle">Rob Dyke <span class="icon"><i class="fab fa-twitter"></i></span>/robdykedotcom <span class="icon"><i class="fab fa-github"></i></span>/robdyke <span class="icon"><i class="fas fa-globe-americas"></i></span>/robdyke.com</p>
+            </div>
+          </div>
+        </section>
+
+        <section data-background-image="assets/2021-10-06-18-20-46.png">
+          <div class="block">
+            <div class="box has-background-primary">
+              <p class="subtitle"><a href="https://nhos-project.github.io/">NHoS / NHSbuntu - an OS for the
+                  NHS</a>.</p>
+            </div>
+          </div>
+        </section>
+
+        <section data-background-image="assets/digitalhealth.png">
+          <div class="block">
+            <div class="box has-background-primary">
+              <p class="subtitle"><a href="https://github.com/robdyke/NHS-Apps-Library">Health apps researcher</a></p>
+            </div>
+          </div>
+        </section>
+      </section>
+
+
+    <!-- How it started -->
+    <section style="width: 100%; height: 80%;">
+      <section>
+        <div class="block">
+          <style>
+            .reveal ul {
+              list-style: none;
+            }
+          </style>
+          <ul class="steps is-balanced">
+            <li class="steps-segment">
+              <span class="steps-marker"></span>
+              <div class="steps-content">
+                <p class="is-size-4">About</p>
+                <p></p>
+              </div>
+            </li>
+            <li class="steps-segment is-active">
+              <span class="steps-marker"></span>
+              <div class="steps-content">
+                <p class="is-size-4">How it started</p>
+              </div>
+            </li>
+            <li class="steps-segment">
+              <span class="steps-marker"></span>
+              <div class="steps-content">
+                <p class="is-size-4">Why this is bad</p>
+                <p></p>
+              </div>
+            </li>
+            <li class="steps-segment">
+              <span class="steps-marker"></span>
+              <div class="steps-content">
+                <p class="is-size-4">What needs fixing</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        
+          <div class="columns is-vcentered">
+            <div class="column is-12">
+              <div class="block">
+                <p class="is-size-4">                 
+                  Late February I discovered two public repositories on that contained things that shouldn't be posted to the internet: usernames, passwords and API keys.
+                  Along with the code there was a compressed database dump that also contained secret info.
+                  </p>
+              </div>
+            </div>
+          </div>
+        
+
+      </section>
+      <section>
+        <div class="block">
+          <div class="box has-background-primary">
+            <p class="is-size-5">
+              The Apperta Foundation, a health tech non-profit created by NHS England, had public code on GitHub stuffed full of secrets. 
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        
+        <div class="columns is-vcentered">
+          <div class="column is-narrow">
+            <div class="box is-hidden-mobile" style="width: 300px;">
+            <figure class="image">
+              <img src="assets/2021-03-22-23-12-53.png" alt="" />
+            </figure>
+          </div>
+          </div>
+          <div class="column is-9">
+            <div class="block">
+              <p class="is-size-5">
+                I wrote up what I had discovered as a Security Disclosure. In the document I included screenshots of the repos, described the comments in the code, the contents of the database dump file, and the listed URLs of the third party sites.
+                I included some notes about published SQLi and RCE vulnerabilities in the version of Laravel framework used by the application. 
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      
+    </section>
+
+      <section class="section">
+        
+          <div class="columns is-vcentered">
+            <div class="column is-5">
+              <div class="box is-hidden-mobile" style="width: 300px;">
+                <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Found a public repo with API keys, usernames, passwords, and a database dump.<br><br>Notified owners.<br><br>Gone now. <a href="https://t.co/x3P1KjYRWO">pic.twitter.com/x3P1KjYRWO</a></p>&mdash; Rob Dyke (@robdykedotcom) <a href="https://twitter.com/robdykedotcom/status/1366378925190971393?ref_src=twsrc%5Etfw">March 1, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+            </div>
+            </div>
+            <div class="column ">
+              <div class="block">
+                <p class="is-size-5">
+                  I emailed the report to Apperta on 1st March at 12:12hrs.
+                  Apperta responded VERY swiftly and thanked me for the report and the materials.
+                  Within the hour the repos were taken down and the portal taken offline. 
+                </p>
+                
+              </div>
+            </div>
+          </div>
+        
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="block">
+            <p class="is-size-6"></p>
+            On Monday (8th March) I received a email letter from a law firm acting for
+            Apperta.</div>
+      </p>
+
+      
+          <figure class="image is-hidden-mobile">
+            <img
+              src="assets/2021-04-06-01-15-54.png"
+              alt="We require your immediate undertaking by 5pm today, Monday 8 March 2021. That you have destroyed or will immediately deliver up, all of our client’s confidential
+              business information in your possession whatsoever. Your confirmation that you have not, and will not, publish the data you unlawfully extracted. Your confirmation that you have not shared the extracted data."
+            />
+          </figure>
+      
+        </div>
+      </section>
+
+
+      <section class="section">
+        
+        <div class="columns is-size-6">
+          <div class="column is-7">
+            <div class="block">I provided the following confirmations:</div>
+            <div class="content">
+              <ol>
+                <li>
+                  I confirm that I created and shared security advisories with
+                  redacted / obfuscated content with your client.
+                </li>
+                <li>
+                  I confirm that I will retain an encrypted copy of the materials as
+                  a record of my actions
+                </li>
+                <li>
+                  I will provide a certificate of destruction after 90 days from the
+                  date of disclosure.
+                </li>
+                <li>
+                  I confirm that I no longer have a copy clone or fork of the
+                  publicly available repositories
+                </li>
+                <li>
+                  I confirm that I have not and will not publish the data your
+                  clients made available on a public website or had published on a
+                  public URL.
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div class="column">
+            <div class="block">
+              
+    
+    <div class="box is-size-6">
+        <article class="media">
+            <div class="media-left">
+                <figure class="image is-hidden-mobile is-64x64">
+                    <img class="is-rounded" src="assets/twitter400x400.jpg" alt="Image" />
+                </figure>
+            </div>
+            <div class="media-content">
+                <div class="content">
+                    <p>
+                        <strong>Rob Dyke</strong>
+                        <small>@robdykedotcom</small>
+                        <small>
+                            <time datetime="2016-1-1">
+                                <a href="https://twitter.com/robdykedotcom/status/1368902837263097861">March 8,
+              2021</a>
+                            </time>
+                        </small>
+                        <br>
+                        InfoSec twitter.<br />So I find an open repo with
+              dump.sql API keys, usernames etc.<br />
+              I verify the contents.<br />
+              take screenshots.<br />
+              I send a security advisory.<br />
+              Then I get a letter from the lawyers.<br />
+              This normal?<br />
+              <a href="https://twitter.com/hashtag/infosec">#infosec</a>
+              <a href="https://twitter.com/hashtag/Legal">#Legal</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+    </div>
+            </div>
+          </div>
+    </section>
+ 
+
+
+
+    <section class="section">
+      <div class="container">
+    
+        <div class="block is-size-6 ">I received a reply the following morning.</div>
+    
+        <div class="block ">
+          <figure class="image is-hidden-mobile">
+            <img src="assets/second-letter.png" />
+          </figure>
+        </div>
+
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="block is-size-6">Later that afternoon another email.</div>
+        <div class="block">
+          <figure class="image is-hidden-mobile">
+            <img src="assets/third-letter.png" alt="" />
+          </figure>
+        </div>
+    
+            </div>
+      </section>
+        
+      <section class="section">
+        <div class="container">
+        <div class="block is-size-6">The email concluded rather ominously</div>
+        <div class="block">
+          <figure class="image is-hidden-mobile">
+            <img
+              src="assets/2021-05-24-20-36-38-third-letter.png"
+              alt="Our client has a real belief that you pose an
+              imminent further threat and that you now retain its confidential business information and data.
+              You have failed to provide the undertaking requested. Please advise how we may serve your
+              solicitor. If you are representing yourself, kindly confirm"
+            />
+          </figure>
+        </div>
+       </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+      <div class="block is-size-6">#infosec Twitter family is awesome</div>
+      <div class="block">
+        <figure class="image">
+          <img
+            src="assets/2021-04-26-00-13-26.png"
+          />
+        </figure>
+      </div>
+     </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+    <div class="block is-size-6">Sworn statement of truth...</div>
+    <div class="block">
+      <figure class="image">
+        <img
+          src="assets/2021-04-26-01-28-44-statement-truth.png"
+        />
+      </figure>
+    </div>
+   </div>
+</section>
+
+<section class="section">
+  <div class="container">
+  <div class="block is-size-6">A confirmation of facts...</div>
+  <div class="block">
+    <figure class="image">
+      <img
+        src="assets/2021-04-26-01-35-09-confirmation-facts.png"
+      />
+    </figure>
+  </div>
+ </div>
+</section>
+
+<section class="section">
+  <div class="container">
+  <div class="block is-size-6">Apperta Call the cops</div>
+  <div class="block">
+    <figure class="image">
+      <img
+        src="assets/49847518_1616586963580715_r.jpeg"
+      />
+    </figure>
+  </div>
+ </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <div class="tile is-ancestor">
+      <div class="tile is-parent is-vertical">
+        <article class="tile is-child box notification is-warning">
+          <figure class="image">
+            <img src="assets/www.bleepingcomputer.com_news_security_engineer-reports-data-leak-to-nonprofit-hears-from-the-police_.png" alt="" />
+          </figure>
+          <div class="block">
+            <p class="subtitle has-text-centered"><a href="https://www.bleepingcomputer.com/news/security/engineer-reports-data-leak-to-nonprofit-hears-from-the-police/" target="_blank" rel=“noreferrer noopener”>Bleeping Computer</p></a>
+          </div>
+        </article>
+        <article class="tile is-child box notification is-info">
+          <figure class="image">
+            <img src="assets/portswigger.net_daily-swig_security-researcher-launches-gofundme-campaign-to-fight-legal-threat-over-vulnerability-disclosure.png" alt="" />
+          </figure>
+          <div class="block">
+            <p class="subtitle has-text-centered"><a href="https://portswigger.net/daily-swig/security-researcher-launches-gofundme-campaign-to-fight-legal-threat-over-vulnerability-disclosure" target="_blank" rel=“noreferrer noopener”>The Daily Swig</a></p>
+          </div>
+        </article>
+      </div>
+      <div class="tile is-parent is-vertical">
+        <article class="tile is-child box notification is-success">
+          <figure class="image">
+            <img src="assets/www.secjuice.com_apperta-data-breach-fiasco_.png" alt="" />
+          </figure>
+          <div class="block">
+            <p class="subtitle has-text-centered"><a href="https://www.secjuice.com/apperta-data-breach-fiasco/" target="_blank" rel=“noreferrer noopener”>SecJuice</a></p>
+          </div>
+        </article>
+        <article class="tile is-child box notification is-danger">
+          <figure class="image">
+            <img src="assets/securityledger.com_2021_05_dispute-over-data-leak-highlights-legal-risks-for-uk-researchers.png" alt="" />
+          </figure>
+          <div class="block">
+            <p class="subtitle has-text-centered"><a href="https://securityledger.com/2021/05/dispute-over-data-leak-highlights-legal-risks-for-uk-researchers/" target="_blank" rel=“noreferrer noopener”>Security Ledger</a></p>
+          </div>
+        </article>
+      </div>
+
+
+      <div class="tile is-parent is-vertical">
+        <article class="tile is-child box notification ">
+          <figure class="image">
+            <img src="assets/www.theregister.com_2021_05_14_apperta_rob_dyke_disclosure_brouhaha_.png" alt="" />
+          </figure>
+          <div class="block">
+            <p class="subtitle has-text-centered"><a href="https://www.theregister.com/2021/05/14/apperta_rob_dyke_disclosure_brouhaha/" target="_blank" rel=“noreferrer noopener”>The Register</a></p>
+          </div>
+        </article>
+        <article class="tile is-child box notification is-warning">
+          <figure class="image is-4by3">
+            <iframe class="has-ratio" src="https://www.youtube-nocookie.com/embed/PRTaBVlas-w?start=3935" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </figure>
+          <div class="block">
+            <p class="subtitle has-text-centered"><a href="https://www.youtube.com/watch?v=PRTaBVlas-w" target="_blank" rel=“noreferrer noopener”>The Greg Housh Show with Sickcodes</a></p>
+          </div>
+        </article>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
+
+<section data-background-image="assets/2021-10-06-14-33-06.png">
+  <div class="block">
+    <div class="box has-background-primary">
+      <p class="is-size-5">The Proposed Defendant will not use or disclose to anyone else (other than, in
+        confidence, to the Proposed Claimant and/or its representatives and/or to his solicitors and/or counsel
+        for the purpose of these proceedings) any data or documents obtained from the computer systems and
+        databases of the Proposed Claimant without its authority.
+      </p>
+    </div>
+  </div>
+</section>
+
+  </section>
+
+    <!-- Why this is bad -->
+    <section>
+      <section>
+        <div class="block">
+          <style>
+            .reveal ul {
+              list-style: none;
+            }
+          </style>
+          <ul class="steps is-balanced">
+            <li class="steps-segment">
+              <span class="steps-marker"></span>
+              <div class="steps-content">
+                <p class="is-size-4">About</p>
+                <p></p>
+              </div>
+            </li>
+            <li class="steps-segment">
+              <span class="steps-marker"></span>
+              <div class="steps-content">
+                <p class="is-size-4">How it started</p>
+              </div>
+            </li>
+            <li class="steps-segment is-active">
+              <span class="steps-marker"></span>
+              <div class="steps-content">
+                <p class="is-size-4">Why this is bad</p>
+                <p></p>
+              </div>
+            </li>
+            <li class="steps-segment">
+              <span class="steps-marker"></span>
+              <div class="steps-content">
+                <p class="is-size-4">What needs fixing</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+
+        <div class="tile is-ancestor">
+          <div class="tile is-parent">
+            <article class="tile is-child box notification is-warning">
+              <p class="title has-text-centered is-size-2">2</p>
+              <p class="subtitle has-text-centered">Public repos with secret info</p>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box notification is-info">
+              <p class="title has-text-centered is-size-2">500+</p>
+              <p class="subtitle has-text-centered">Emails between lawyers</p>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box notification is-success">
+              <p class="title has-text-centered is-size-2">£25k</p>
+              <p class="subtitle has-text-centered">Costs & Legal fees</p>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box notification is-danger">
+              <p class="title has-text-centered is-size-2">8</p>
+              <p class="subtitle has-text-centered">Confirmations / undertakings offered</p>
+            </article>
+          </div>
+        </div>
+        <div class="tile is-ancestor">
+          <div class="tile is-parent">
+            <article class="tile is-child box notification is-info">
+              <p class="title has-text-centered is-size-2">3</p>
+              <p class="subtitle has-text-centered">High Court forms</p>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box notification is-success">
+              <p class="title has-text-centered is-size-2">£15k</p>
+              <p class="subtitle has-text-centered">Go Fund Me Donations (after fees)</p>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box notification is-danger">
+              <p class="title has-text-centered is-size-2">5</p>
+              <p class="subtitle has-text-centered">Press interviews</p>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box notification is-warning">
+              <p class="title has-text-centered is-size-2">+1k</p>
+              <p class="subtitle has-text-centered">Twitter followers</p>
+            </article>
+          </div>
+        </div>
+        <div class="tile is-ancestor">
+          <div class="tile is-parent">
+            <article class="tile is-child box notification is-success">
+              <p class="title has-text-centered is-size-2">1</p>
+              <p class="subtitle has-text-centered">Confirmation / undertaking accepted</p>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box notification is-danger">
+              <p class="title has-text-centered is-size-2">2</p>
+              <p class="subtitle has-text-centered">weeks off sick from stress</p>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box notification is-warning">
+              <p class="title has-text-centered is-size-2">£5k</p>
+              <p class="subtitle has-text-centered">Own savings</p>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box notification is-info">
+              <p class="title has-text-centered is-size-2">177</p>
+              <p class="subtitle has-text-centered">Pages in court bundle</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+      <!-- Why this is bad -->
+    <section>
+      <section>
+          <div class="block">
+            <style>
+              .reveal ul {
+                list-style: none;
+              }
+            </style>
+            <ul class="steps is-balanced">
+              <li class="steps-segment">
+                <span class="steps-marker"></span>
+                <div class="steps-content">
+                  <p class="is-size-4">About</p>
+                  <p></p>
+                </div>
+              </li>
+              <li class="steps-segment">
+                <span class="steps-marker"></span>
+                <div class="steps-content">
+                  <p class="is-size-4">How it started</p>
+                </div>
+              </li>
+              <li class="steps-segment">
+                <span class="steps-marker"></span>
+                <div class="steps-content">
+                  <p class="is-size-4">Why this is bad</p>
+                  <p></p>
+                </div>
+              </li>
+              <li class="steps-segment is-active">
+                <span class="steps-marker"></span>
+                <div class="steps-content">
+                  <p class="is-size-4">What needs fixing</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+      </section>
+      <section>
+        <div class="block">
+          <div class="box has-background-primary">
+            <p class="title is-size-3">the Computer Misuse Act needs fixing</p>
+            <p class="subtitle is-size-4">30 year old legislation isn't working</p>
+          </div>
+    </div>
+      </section>
+
+
+  <section>
+    <div class="block">
+      <div class="block"><p class="title is-5">What's broken?</p></div>
+      <div class="tile is-ancestor">
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <p class="title">No good faith protection</p>
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <p class="title">Weaponised to intimidate</p>
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <p class="title">Financially ruinous</p>
+          </article>
+        </div>
       </div>
     </div>
+  </section>
 
-    <script src="reveal.js/dist/reveal.js"></script>
-    <script src="reveal.js/plugin/notes/notes.js"></script>
-    <script src="reveal.js/plugin/markdown/markdown.js"></script>
-    <script src="reveal.js/plugin/highlight/highlight.js"></script>
-    <script src="reveal.js/plugin/zoom/zoom.js"></script>
-    <script>
-      // More info about initialization & config:
-      // - https://revealjs.com/initialization/
-      // - https://revealjs.com/config/
-      Reveal.initialize({
-        hash: true,
+  <section class="section">
+        
+    
+    <div class="block"><p class="title is-5">The amended Computer Misuse Act 1990 legislation creates three specific offences:</p></div>
+    <div class="block is-size-6">
+      <div class="content">
+    <ol>
+    <li>Causing a computer to perform any function with intent to secure access to any program or data held in any computer the person is not authorised to access (Section 1, CMA 1990).</li>
+    <li>Committing a section 1 offence with the intention of committing further offences (Section 2, CMA 1990).</li>
+    <li>Doing any unauthorised act in relation to a computer that a person knows to be unauthorised, with intent to or being reckless as to whether his act will: impair the operation of any computer; prevent or hinder access to any program or data held in any computer; impair the operation of any program or the reliability of any data; or enable any of the things above to be done. (Section 3, CMA 1990.)</li>
+    </ol>
+    </div>
+    </div>
+    
+  </section>
 
-        // Learn about plugins: https://revealjs.com/plugins/
-        plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom],
-      });
-    </script>
-  </body>
+  <section class="section">
+    <div class="container">
+    <div class="block"><p class="title is-5">PR's welcomed</p></div>
+    
+    <div class="block is-size-6">The UK Government had an <a href="https://www.gov.uk/government/consultations/computer-misuse-act-1990-call-for-information">open RFC reviewing the Computer Misuse Act 1990</a>, including offences and the powers available to law enforcement agencies to investigate those offences.</div>
+      <div class="block is-size-6">The Govt wanted to hear from UK organisations including academia, business, law enforcement agencies, the cybersecurity industry, private sector and independent researchers.</div>
+      
+    </div>
+    </section>
+    </section>
+
+          <!-- Title -->
+          <section class="hero is-large is-primary">
+            <div class="hero-body">
+              <div class="container">
+                <div class="columns">
+                  <div class="column is-12">
+                    <h1 class="title is-1 is-spaced">
+                      never-disclose
+                    </h1>
+                    <h2 class="subtitle is-2">
+                      until broken cyber-law is fixen
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+  </div>
+</div>
+
+  <script src="reveal.js/dist/reveal.js"></script>
+  <script src="reveal.js/plugin/notes/notes.js"></script>
+  <script src="reveal.js/plugin/markdown/markdown.js"></script>
+  <script src="reveal.js/plugin/highlight/highlight.js"></script>
+  <script src="reveal.js/plugin/zoom/zoom.js"></script>
+
+  <script>
+    Reveal.initialize({
+          // Use 1 based indexing for # links to match slide number (default is zero
+    // based)
+    hashOneBasedIndex: true,
+  
+  // Add the current slide number to the URL hash so that reloading the
+  // page/copying the URL will return you to the same slide
+  hash: true,
+
+  // Flags if we should monitor the hash and change slides accordingly
+  respondToHashChanges: true,
+      controls: true,
+      controlsTutorial: true,
+      progress: false,
+      center: true,
+      plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom],
+    });
+  </script>
+
+  <script type="text/javascript" src="lib/main.js"></script>
+  <script
+  defer
+  src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+></script>
+</body>
+
 </html>
