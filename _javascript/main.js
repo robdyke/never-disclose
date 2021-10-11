@@ -1,3 +1,6 @@
-document.addEventListener('DOMContentLoaded', () => {
-  console.log('Hello Bulma!');
+Reveal.initialize({
+  controls: true,
+  controlsTutorial: true,
+  progress: true,
+  plugins: [RevealMarkdown, RevealNotes],
 });
